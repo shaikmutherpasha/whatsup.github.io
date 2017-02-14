@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Whatsup App using Firebase</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<section id="head">
+    <h3>Whatsup App using Firebase</h3>
+</section>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <form class="form-inline">
+                    <div class="form-group">
+                        <input id="message" type="text" class="form-control" placeholder="write a message">
+                    </div>
+                    <button type="submit" class="btn btn-success">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<body>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="bootstrap.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.6.9/firebase.js"></script>
+    <script>
+    var config = {
+        apiKey: "AIzaSyAtQ4mmjdjsDmmJFqW9qu606fiavq_QceA",
+        authDomain: "whatsup-43720.firebaseapp.com",
+        databaseURL: "https://whatsup-43720.firebaseio.com",
+        storageBucket: "whatsup-43720.appspot.com",
+        messagingSenderId: "1041649042723"
+    };
+    firebase.initializeApp(config);
+    </script>
+</body>
+
+</html>

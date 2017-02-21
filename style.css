@@ -7,3 +7,7 @@
 	text-align: center;
 	margin-top:0px;
 }
+
+ol{
+	list-style-type: none;
+}
